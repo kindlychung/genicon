@@ -20,6 +20,8 @@ You need to have imagemagick installed with librsvg enabled, something like:
 
     brew install --with-librsvg
 
+Only tested on macOS Sierra.
+
 # Installation
 
 Download and unzip the executable from the release page and put it anywhere in your PATH, `/usr/local/bin` for example.
