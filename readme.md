@@ -23,7 +23,7 @@ Type `genicon` or `genicon -h` in terminal:
 
 You need to have imagemagick installed with librsvg enabled, something like:
 
-    brew install --with-librsvg
+    brew install imagemagick --with-librsvg
 
 Only tested on macOS Sierra.
 
