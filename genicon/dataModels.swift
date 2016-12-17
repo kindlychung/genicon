@@ -38,19 +38,25 @@ public struct Info: Jsonifiable {
     }
 }
 
+public enum Platform: String {
+    case mac = "mac"
+    case iphone = "iphone"
+}
+
 public struct ImageInfo: Jsonifiable {
     let size: String
     let scale: String
-    let idiom = "mac"
+    private var idiom = ""
     var filename: String
     let realSize: Int
     let realSizeString: String
-    public init(size sz: Int, scale sc: Int) {
+    public init(size sz: Int, scale sc: Int, platform: Platform) {
         realSize = sz * sc
         realSizeString = sizeString(realSize)
         size = sizeString(sz)
         scale = scaleString(sc)
         filename =  iconFilename(sizeString: realSizeString)
+        idiom = platform.rawValue 
     }
     var json: String {
         let sizeJson = jsonify(pair: ("size", size), quoteValue: true)
