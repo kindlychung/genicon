@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3A58B41E057543009174F9 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A58B31E057543009174F9 /* extension.swift */; };
 		BC3B068F1E033E7C00A89BE9 /* dataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B8D891E01DFBF0096E77F /* dataModels.swift */; };
 		BC9B8D7E1E01AE220096E77F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B8D7D1E01AE220096E77F /* main.swift */; };
 		BC9B8D851E01B2860096E77F /* execCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B8D841E01B2860096E77F /* execCommand.swift */; };
 		BC9B8D8A1E01DFBF0096E77F /* dataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9B8D891E01DFBF0096E77F /* dataModels.swift */; };
+		BCA85D0F1E0567E000F7B41E /* generateJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA85D0E1E0567E000F7B41E /* generateJson.swift */; };
 		BCD78DE81E03126F009A3BD3 /* testgenicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD78DE71E03126F009A3BD3 /* testgenicon.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC3A58B31E057543009174F9 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		BC9B8D7A1E01AE220096E77F /* genicon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = genicon; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9B8D7D1E01AE220096E77F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC9B8D841E01B2860096E77F /* execCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = execCommand.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		BC9B8D891E01DFBF0096E77F /* dataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataModels.swift; sourceTree = "<group>"; };
 		BCA410DF1E02B20E003F10A7 /* genicodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genicodeTests.swift; sourceTree = "<group>"; };
 		BCA410E11E02B20E003F10A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA85D0E1E0567E000F7B41E /* generateJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = generateJson.swift; sourceTree = "<group>"; };
 		BCD78DE51E03126F009A3BD3 /* testgenicon.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgenicon.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD78DE71E03126F009A3BD3 /* testgenicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testgenicon.swift; sourceTree = "<group>"; };
 		BCD78DE91E03126F009A3BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				BC9B8D841E01B2860096E77F /* execCommand.swift */,
 				BC9B8D881E01D4C20096E77F /* MyPlayground.playground */,
 				BC9B8D891E01DFBF0096E77F /* dataModels.swift */,
+				BCA85D0E1E0567E000F7B41E /* generateJson.swift */,
+				BC3A58B31E057543009174F9 /* extension.swift */,
 			);
 			path = genicon;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			files = (
 				BC9B8D851E01B2860096E77F /* execCommand.swift in Sources */,
 				BC9B8D8A1E01DFBF0096E77F /* dataModels.swift in Sources */,
+				BCA85D0F1E0567E000F7B41E /* generateJson.swift in Sources */,
+				BC3A58B41E057543009174F9 /* extension.swift in Sources */,
 				BC9B8D7E1E01AE220096E77F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
